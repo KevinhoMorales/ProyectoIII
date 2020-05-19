@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		2A4F6DA9234A9B3F002FB335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F6DA8234A9B3F002FB335 /* AppDelegate.swift */; };
 		2A4F6DAB234A9B3F002FB335 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F6DAA234A9B3F002FB335 /* SceneDelegate.swift */; };
-		2A4F6DAD234A9B3F002FB335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F6DAC234A9B3F002FB335 /* ViewController.swift */; };
 		2A4F6DB0234A9B3F002FB335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4F6DAE234A9B3F002FB335 /* Main.storyboard */; };
 		2A4F6DB2234A9B41002FB335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4F6DB1234A9B41002FB335 /* Assets.xcassets */; };
 		2A4F6DB5234A9B41002FB335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4F6DB3234A9B41002FB335 /* LaunchScreen.storyboard */; };
+		2A4F6DBD234AA2D2002FB335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F6DBC234AA2D2002FB335 /* ViewController.swift */; };
+		2A953B8724745D18004BBBC8 /* example_5s0_hand_model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2A953B8624745D18004BBBC8 /* example_5s0_hand_model.mlmodel */; };
+		2AE1BB37234AA54200D6C374 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE1BB36234AA54200D6C374 /* Welcome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A4F6DA5234A9B3F002FB335 /* Proyecto III.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proyecto III.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A4F6DA8234A9B3F002FB335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A4F6DAA234A9B3F002FB335 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2A4F6DAC234A9B3F002FB335 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A4F6DAF234A9B3F002FB335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A4F6DB1234A9B41002FB335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A4F6DB4234A9B41002FB335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A4F6DB6234A9B41002FB335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A4F6DBC234AA2D2002FB335 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A953B8624745D18004BBBC8 /* example_5s0_hand_model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = example_5s0_hand_model.mlmodel; sourceTree = "<group>"; };
+		2AE1BB36234AA54200D6C374 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		2A4F6DA7234A9B3F002FB335 /* Proyecto III */ = {
 			isa = PBXGroup;
 			children = (
+				2A953B8624745D18004BBBC8 /* example_5s0_hand_model.mlmodel */,
 				2A4F6DA8234A9B3F002FB335 /* AppDelegate.swift */,
 				2A4F6DAA234A9B3F002FB335 /* SceneDelegate.swift */,
-				2A4F6DAC234A9B3F002FB335 /* ViewController.swift */,
+				2AE1BB36234AA54200D6C374 /* Welcome.swift */,
+				2A4F6DBC234AA2D2002FB335 /* ViewController.swift */,
 				2A4F6DAE234A9B3F002FB335 /* Main.storyboard */,
 				2A4F6DB1234A9B41002FB335 /* Assets.xcassets */,
 				2A4F6DB3234A9B41002FB335 /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4F6DAD234A9B3F002FB335 /* ViewController.swift in Sources */,
+				2AE1BB37234AA54200D6C374 /* Welcome.swift in Sources */,
+				2A953B8724745D18004BBBC8 /* example_5s0_hand_model.mlmodel in Sources */,
+				2A4F6DBD234AA2D2002FB335 /* ViewController.swift in Sources */,
 				2A4F6DA9234A9B3F002FB335 /* AppDelegate.swift in Sources */,
 				2A4F6DAB234A9B3F002FB335 /* SceneDelegate.swift in Sources */,
 			);
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
